@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"time"
 
-	utl "./util"
 	_ "github.com/go-sql-driver/mysql"
+	utl "github.com/kingsman20/mortgage_app/util"
 )
 
 func init() {
